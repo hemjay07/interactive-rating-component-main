@@ -13,7 +13,6 @@ Users should be able to:
 
 ### Screenshot
 
-![sreenshot of the task](/images/Screenshot1.png)
 ![sreenshot of the task](/images/Screenshot3.png)
 
 ### Links
@@ -31,20 +30,12 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
 ```js
-<!-- Select all the score element and destruct the nodelist returned into an array -->
+<!-- select all the score element and destruct the nodelist returned into an array -->
 const scores = [...document.querySelectorAll(".scores")];
 
 ```
 
 ### Continued development
+-Take on more task to better my html, css, and javascript skills
+-Learn responsive design
