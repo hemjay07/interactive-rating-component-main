@@ -1,17 +1,111 @@
+html {
+  height: 100%;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+}
+body {
+  background-color: hsl(215, 18%, 13%);
+  width: 25%;
+  margin: auto;
+  padding: 0 2% 2%;
+  border-radius: 6%;
+  font-family: "Overpass", sans-serif;
+}
+.star {
+  color: hsl(25, 97%, 53%);
+  /* background-color: hsl(25, 97%, 53%); */
+}
+.icon {
+  background-color: hsl(213, 19%, 18%);
+  width: 2.725rem;
+  height: 2.725rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+#rating {
+  display: block;
+}
+
+#thanks {
+  display: none;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  opacity: 0.8;
+}
+h5 {
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+  opacity: 0.8;
+}
+.rating-scores {
+  display: flex;
+  justify-content: space-between;
+}
+.scores {
+  height: 2.725rem;
+  width: 2.725rem;
+  color: white;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+.scores:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+#submit h4 {
+  margin: 0;
+  padding: 5px;
+}
+#submit {
+  color: white;
+  letter-spacing: 0.25rem;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  text-align: center;
+  padding: 0.3rem 0;
+}
+#submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.illustration {
+  margin: 2rem 0 1rem;
+}
+#message {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 0.5rem 0;
+  border-radius: 15px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 1.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-body {
-  background-color: hsl(216, 12%, 8%);
-  display: flex;
-}
-
-.card {
-  background-color: hsl(213, 19%, 18%);
-  margin: auto;
+@media screen and (max-width: 1021px) {
+  body {
+    background-color: hsl(215, 18%, 13%);
+    width: 70%;
+    margin: auto;
+    padding: 0 8% 5%;
+    border-radius: 6%;
+  }
 }
