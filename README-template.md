@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/hemjay07/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://hemjay07.github.io/interactive-rating-component-main/)
+- Solution URL: [(https://github.com/hemjay07/interactive-rating-component-main)]
+- Live Site URL: [(https://hemjay07.github.io/interactive-rating-component-main/)]
 
 ### Built with
 
