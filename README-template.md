@@ -31,7 +31,7 @@ Users should be able to:
 ### What I learned
 
 ```js
-<!-- select all the score element and destruct the nodelist returned into an array -->
+<!-- select all the  element with class= "scores" and destruct the nodelist returned into an array -->
 const scores = [...document.querySelectorAll(".scores")];
 
 ```
