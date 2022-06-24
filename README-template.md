@@ -14,7 +14,6 @@ Users should be able to:
 ### Screenshot
 
 ![sreenshot of the task](/images/Screenshot1.png)
-![sreenshot of the task](/images/Screenshot2.png)
 ![sreenshot of the task](/images/Screenshot3.png)
 
 ### Links
