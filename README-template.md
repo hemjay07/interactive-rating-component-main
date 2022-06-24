@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/hemjay07/interactive-rating-component-main)
+- Live Site URL: [Add live site URL here](https://hemjay07.github.io/interactive-rating-component-main/)
 
 ### Built with
 
@@ -27,6 +27,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - javaScript
+- media query
 
 ### What I learned
 
@@ -41,9 +42,9 @@ Users should be able to:
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+<!-- Select all the score element and destruct the nodelist returned into an array -->
+const scores = [...document.querySelectorAll(".scores")];
+
 ```
 
 ### Continued development
